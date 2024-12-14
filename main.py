@@ -1,6 +1,7 @@
 from spell_checker import load_dictionary, spell_checker
 from grammar_checker import check_subject_verb
 
+
 if __name__ == "__main__":
     tamil_words = load_dictionary()
 
