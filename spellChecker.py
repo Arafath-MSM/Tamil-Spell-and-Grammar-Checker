@@ -1,5 +1,6 @@
 from spellchecker import SpellChecker
 
+
 # Initialize SpellChecker with custom Tamil dictionary
 spell = SpellChecker(language=None)  # We use 'None' to load a custom dictionary
 spell.word_frequency.load_text_file('tamil_dictionary.txt')
