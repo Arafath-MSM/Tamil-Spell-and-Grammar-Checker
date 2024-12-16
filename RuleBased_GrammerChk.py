@@ -7,6 +7,7 @@ def check_subject_verb_agreement(sentence):
     :return: Corrected sentence (str)
     """
     corrections = []
+    
     # Simple rule: If subject is "அவன்" or "அவள்", verb must end with "ன்" or "ள்"
     patterns = [
         (r"(அவன்|அவள்)\s+(\w+?)(?!ன்|ள்)", r"\1 \2ன்"),
