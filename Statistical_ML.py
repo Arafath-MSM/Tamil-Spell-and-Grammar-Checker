@@ -23,6 +23,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 model = MultinomialNB()
 model.fit(X_train, y_train)
 
+
 # Test on New Sentence
 test_sentence = ["அவன் வர"]
 test_features = vectorizer.transform(test_sentence)
