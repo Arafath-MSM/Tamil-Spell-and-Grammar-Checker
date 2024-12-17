@@ -1,6 +1,6 @@
 import re
 
-def check_subject_verb_agreement(sentence):
+def check_subject_verb_agreement(sentence): #ss
     """
     Detect and correct subject-verb agreement errors.
     :param sentence: Input sentence (str)
